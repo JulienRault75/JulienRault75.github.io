@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Julien Rault Portfolio</title>
+  <style>
+      @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #e0e0e0;
+      background-color: #121212;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 25px;
+      background: #1a1a1a;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 49, 49, 0.3);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .header h1 {
+      font-family: 'Comfortaa', cursive;
+      font-size: 2.9em;
+      color: #FF3131;
+      text-shadow: 0 0 20px #FF3131;
+    }
+
+    .header p {
+      font-size: 1.2em;
+      color: #7f8c8d;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      font-size: 1.7em;
+      color: #FF3131;
+      border-bottom: 3px solid #FF3131;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      display: inline-block;
+      width: auto;
+    }
+
+    .intro {
+      display: flex;
+      align-items: center;
+    }
+
+    .intro img {
+      margin-left: 20px;
+      max-height: 100px;
+      border-radius: 10px;
+    }
+
+    .section p, .section ul {
+      font-size: 1em;
+      color: #bdc3c7;
+    }
+
+    .résaux, .outils {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .résaux img, .outils img {
+      transition: transform 0.3s;
+    }
+
+    .résaux img:hover, .outils img:hover {
+      transform: scale(1.2);
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Portfolio</h1>
+      <p>Photo • Pink Floyd • BD</p>
+    </div>
+    <div class="section">
+      <h2>Salut!</h2>
+      <div class="intro">
+        <div>
+          <p>Je m'appelle Julien Rault.</p>
+          <p>Coucou tu peux mettre le texte de ton choix</p>
+        </div>
+        <img src="https://st.depositphotos.com/1779253/5140/v/600/depositphotos_51405259-stock-illustration-male-avatar-profile-picture-use.jpg" alt="Photo">
+      </div>
+    </div>
+    <div class="section">
+      <h2>Mes réseaux</h2>
+      <div class="résaux">
+        <a href="https://www.facebook.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" height="40">
+        </a>
+        <a href="mailto:julien.rault95@uniagro.fr">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" alt="Mail" height="40">
+        </a>
+        <a href="https://www.instagram.com/73_dsotm?igsh=MTBiM2YyeWVjMDhtbw==">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" height="40">
+        </a>
+        <a href="https://www.tumblr.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/3536/3536602.png" alt="Tumblr" height="40">
+        </a>
+      </div>
+    </div>
+    <div class="section">
+      <h2>Parcours scolaire</h2>
+      <ul>
+        <li>1993-1995 | Nantes Université • DEUG</li>
+        <li>1995-1998 | École Nationale Supérieure Agronomique de Rennes (ENSAR)</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Langues</h2>
+      <ul>
+        <li>Français</li>
+        <li>Anglais</li>
+      </ul>
+    </div>
+    <div class="section">
+      <h2>Outils</h2>
+      <div class="outils">
+        <img src="https://cdn-icons-png.flaticon.com/512/16509/16509278.png" alt="Excel" height="40px">
+        <img src="https://cdn-icons-png.flaticon.com/512/16509/16509298.png" alt="Power Point" height="40px">
+        <img src="https://cdn-icons-png.flaticon.com/512/16509/16509293.png" alt="Word" height="40px">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
